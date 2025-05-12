@@ -59,8 +59,7 @@ export default async (eleventyConfig) => {
   return {
     dir: {
       input: "src",
-      data: "_data",
-      output: "dist"
+      data: "_data"
     }
   }
 };
