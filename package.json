@@ -1,0 +1,31 @@
+{
+  "name": "loex-prom",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "eleventy --serve",
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopesgon/loex-prom.git"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "clean-css": "^5.3.3",
+    "sass": "^1.88.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lopesgon/loex-prom/issues"
+  },
+  "homepage": "https://github.com/lopesgon/loex-prom#readme",
+  "type": "module",
+  "devDependencies": {
+    "html-minifier": "^4.0.0"
+  }
+}
